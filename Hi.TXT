@@ -1,0 +1,42 @@
+Instruction:
+Build the Android app exactly as per the following prompt without making any changes. Follow each point separately and precisely.
+
+App Name: Kalki
+
+Package Name: com.kalki
+
+Min SDK: 29 (Android 10)
+
+Target SDK: 37 (Android 17)
+
+App Size: <100KB
+
+Network: Online & Offline
+
+For: Personal use only
+
+No Unesecry Resources /Icon/Image/Etc.
+
+Requirements Summary:
+
+1. Show prompt for accessibility permission as soon as the app is opened.
+
+2. Direct Open Accessibility, Kalki
+
+3. If accessibility is allowed, then background permissions prompt should come immediately.
+
+4. If any permission (Camera, Mic, etc.) is Don't Allow, then show its specific popup again.
+
+5. There should be no layout no UI in the app
+
+6. Run 24/7 Silently in background, no UI or notifications.
+
+7. Auto-start after reboot, stable with minimal battery use.
+
+8. After Accessibility permission granted, force request background permission immediately.
+
+9. Save granted permissions locally to avoid repeat requests after reboot.
+
+10. Deliverables:
+• Signed APK: Kalki.apk
+• Source code ZIP: Kalki_Source_Code.zip
